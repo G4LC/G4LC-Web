@@ -53,6 +53,18 @@
 }
 
 @media screen and (max-width: 768px){
+    .memes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .meme{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 500px;
+
+    }
     body {
      overflow-x: hidden;
     }
